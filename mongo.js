@@ -16,6 +16,3 @@ const newSchema = new mongoose.Schema({
 })
 
 export const collection = mongoose.model("collection", newSchema);
-
- // Your MongoDB collection model here;
-// module.exports= {collection}
